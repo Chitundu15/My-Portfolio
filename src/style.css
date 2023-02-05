@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    
+  }
+  h1,
+  h2{
+    font-family: 'Saira Stencil One', cursive;;
+  }
+ a {
+    text-decoration: none;
+  }
+  a:hover{
+    color: black;
+  }
+ 
+  p {
+    margin: 10px;
+    padding: 10px;
+  }
+   .para {
+    display: flex;
+    margin: 30px 0;
+  }
+  :root {
+    --primary-color: #D595F3;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  .contact {
+    border-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 20px;
+    background: var(--primary-color);
+    color: black;
+    box-shadow: var(--box-shadow);
+  }
+  .about {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+  }
+ 
+  .mail:hover {
+    color: var(--primary-color);
+  }
+  .launch-buttons{
+    background: var(--primary-color);
+  }
+  
